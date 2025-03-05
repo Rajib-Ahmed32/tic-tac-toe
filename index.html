@@ -12,13 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Tic-Tac-Toe</h1>
+    <h1 class="game-heading">Tic-Tac-Toe</h1>
+    <div class="main-container">
     <div class="board-container" id="board"></div>
     <div class="game-info">
         <p id="status">Next player: X</p>
         <ol class="moves-list" id="moves"></ol>
-        <button class="reset-btn">Reset Game</button>
+        <button class="reset-btn" id="resetGame()">Reset Game</button>
     </div>
+</div>
     <script src="./script/script.js"></script>
 </body>
 </html>
